@@ -1,0 +1,41 @@
+.big-heart {
+    font-size: 75px;
+}
+
+#nextBtn {
+    background: #ff6f9c;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#nextBtn:hover {
+    transform: scale(1.08);
+}
+
+.final-text {
+    margin-top: 25px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.confetti {
+    position: fixed;
+    top: -20px;
+    width: 10px;
+    height: 16px;
+    background: #ff6f9c;
+    animation: fall linear forwards;
+    z-index: 9999;
+}
+
+@keyframes fall {
+    to {
+        top: 110vh;
+        transform: rotate(720deg);
+    }
+}
